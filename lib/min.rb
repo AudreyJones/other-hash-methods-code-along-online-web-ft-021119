@@ -13,5 +13,5 @@ def get_the_min(groceries)
     if type == :vegetable
       answer = items.min
   end
-  items.min
+  answer
 end
