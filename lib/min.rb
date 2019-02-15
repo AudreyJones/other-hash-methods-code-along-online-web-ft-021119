@@ -10,7 +10,8 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.each do |type,items|
-    items.min
+    if type == :vegetable
+      answer = items.min
   end
   items.min
 end
