@@ -9,9 +9,10 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
+  answer = ""
   groceries.each do |type,items|
     if type == :vegetable
-      answer = items.min
+      answer << items.min
       binding.pry
     end
   end
