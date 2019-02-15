@@ -13,7 +13,6 @@ def get_the_min(groceries)
   groceries.each do |type,items|
     if type == :vegetable
       answer << items.min
-      binding.pry
     end
   end
   answer
