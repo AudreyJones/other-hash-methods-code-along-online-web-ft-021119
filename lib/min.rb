@@ -12,4 +12,5 @@ def get_the_min(groceries)
   groceries.each do |type,items|
     items.min
   end
+  items.min
 end
